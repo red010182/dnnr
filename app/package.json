@@ -1,0 +1,11 @@
+{
+    "name": "app",
+    "scripts": {
+        "prestart": "npm install && npm test",
+        "test": "mocha",
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "koa": "~2.3.0"
+    }
+}
